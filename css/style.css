@@ -2,32 +2,32 @@
     font-family: 'Montserrat';
     font-weight: 400;
     font-style: normal;
-    src: url('./fonts/montserrat-v24-latin_cyrillic-regular.woff') format('woff'),
-        url('./fonts/montserrat-v24-latin_cyrillic-regular.woff2') format('woff2');
+    src: url('../../fonts/montserrat-v24-latin_cyrillic-regular.woff') format('woff'),
+        url('../../fonts/montserrat-v24-latin_cyrillic-regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Montserrat';
     font-weight: 600;
     font-style: normal;
-    src: url('./fonts/montserrat-v24-latin_cyrillic-600.woff') format('woff'),
-        url('./fonts/montserrat-v24-latin_cyrillic-600.woff2') format('woff2');
+    src: url('../../fonts/montserrat-v24-latin_cyrillic-600.woff') format('woff'),
+        url('../../fonts/montserrat-v24-latin_cyrillic-600.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Montserrat';
     font-weight: 700;
     font-style: normal;
-    src: url('./fonts/montserrat-v24-latin_cyrillic-700.woff') format('woff'),
-        url('./fonts/montserrat-v24-latin_cyrillic-700.woff2') format('woff2');
+    src: url('../../fonts/montserrat-v24-latin_cyrillic-700.woff') format('woff'),
+        url('../../fonts/montserrat-v24-latin_cyrillic-700.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Montserrat';
     font-weight: 800;
     font-style: normal;
-    src: url('./fonts/montserrat-v24-latin_cyrillic-800.woff') format('woff'),
-        url('./fonts/montserrat-v24-latin_cyrillic-800.woff2') format('woff2');
+    src: url('../../fonts/montserrat-v24-latin_cyrillic-800.woff') format('woff'),
+        url('../../fonts/montserrat-v24-latin_cyrillic-800.woff2') format('woff2');
 }
 
 :root {
@@ -157,7 +157,7 @@ button:hover {
 
 .hero {
     min-height: 620px;
-    background: url('../img/1.png');
+    background: url('.../../img/1.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -220,7 +220,7 @@ button:hover {
 }
 
 .advantages__first-item {
-    background: url('../img/rect1.png') no-repeat white;
+    background: url('../../img/rect1.png') no-repeat white;
     background-size: cover;
     position: relative;
     flex: 1 1 calc(50% - 16px);
@@ -390,7 +390,7 @@ button:hover {
 }
 
 .work__picture {
-    background: url('../img/rect4.png');
+    background: url('.../../img/rect4.png');
     flex: 1 1 calc(50% - 71px);
     background-repeat: no-repeat;
     background-position: center;
